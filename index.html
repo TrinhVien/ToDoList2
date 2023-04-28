@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font_icon/fontawesome/css/all.css">
+    <title>TODOLIST</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>Project TODOLIST</h1>
+
+            <form id="formTask" action="" class="form-task d-flex">
+                <input class="task" type="text" placeholder="Enter your task">   
+                <input class="btn-submit" type="submit" value="ADD TASK">
+            </form>
+        </div>
+        <div id="content">
+            <ul class="task-list">
+                <li class="task-item d-flex">
+                    <p class="name-task">Read Book</p>
+                    <button class="btn-add-task"><i class="fa-solid fa-pen"></i></button>
+                    <button class="btn-delete-task"><i class="fa-solid fa-trash-can"></i></button>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="footer">
+            <span class="count-task-completed">Yeah, 1 task completed</span>
+        </div>
+    </div>
+    <script src="assets/js/app.js">
+        
+    </script>
+
+</body>
+
+</html>

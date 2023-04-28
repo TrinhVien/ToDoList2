@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    margin-top: 130px;
+    margin-left: 400px;
+    width: 542px;
+    background-color: #1E272E;
+    color: #fff;
+    padding: 23px 30px 30px;
+}
+
+#header,#content {
+    margin-bottom: 27px;
+}
+#header h1 {
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+#header .form-task {
+    justify-content:space-between
+}
+
+#header .form-task input[type='text']{
+    flex-basis: 80%;
+    line-height: 40px;
+    font-size: 16px;
+    background-color: #1E272E;
+    border: none;
+    border-bottom: 1px solid #FF6F6F;
+    color: #fff;
+
+}
+
+#header .form-task input[type='text']::placeholder{
+    color: #FF6F6F;
+}
+
+#header .form-task  input[type='submit']{
+    background: #FF2B2B;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+#header .form-task  input[type='submit']:hover {
+    cursor: pointer;
+}
+
+ul.task-list .task-item {
+    width: 100%;
+    line-height: 40px;
+    justify-content: space-between;
+}
+
+ul.task-list .task-item {
+    border-bottom: 1px solid #525252
+}
+
+ul.task-list .task-item p {
+    flex-basis: 90%;
+    font-size: 16px;
+
+}
+ul.task-list li[iscompleted='true'] p{
+    color: #525252;
+    text-decoration-line: line-through;
+}
+
+ul.task-list li.task-item >button {
+    padding: 0 6px;
+    background: #1E272E;
+    border: none;
+    color: #525252;
+    font-size: 16px;
+}
+
+ul.task-list li.task-item >button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/* ul.task-list li.task-item .task-completed */
+/* <-------------------------end content------------------------------> */
+#footer .count-task-completed {
+    color: #525252;
+    font-style: italic;
+    font-size: 14px;
+}
